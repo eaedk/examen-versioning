@@ -1,0 +1,11 @@
+*cache*
+data.csv
+.venv/
+flagged/
+*.DS_Store
+readme_azubi.md
+src/assets/tmp/history*
+src/tmp.txt
+
+assets/tmp/history*
+tmp.txt
