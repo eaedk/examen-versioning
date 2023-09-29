@@ -25,6 +25,7 @@ iris = datasets.load_iris(return_X_y=False, as_frame=True)
 
 df = iris["frame"]
 target_col = "target"
+
 # pandas profiling
 profile = ProfileReport(df, title="Dataset", html={"style": {"full_width": True}})
 profile.to_file(eda_report_fp)
